@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pokemon</title>
+
+   <style>
+      body {
+         margin: 0;
+         text-align: center;
+      }
+      h1 {
+         background-color: black;
+         color: rgb(255, 0, 0);
+      }
+      .wrapper {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 10px;
+         grid-auto-rows: minmax(100px, auto);
+         color: red;
+         padding-top: 2em;
+         padding-bottom: 0em;
+         }
+         .wrapper a {
+            text-decoration: none;
+            color: red;
+            background-color: #ffffff;
+            margin: 1rem;
+            padding: 1rem;
+           text-align: center;
+         }
+         a:hover{
+            background-color: #38c172;
+            color:honeydew;
+         }
+
+   </style>
+</head>
+
+<body>
+
+   <main>
+     
+      <div class="wrapper">
+         <a id="1" href="info.html" > bulbasaur </a>
+         <a id="2" href="info.html" >ivysaur  </a>
+         <a id="3" href="info.html" > venusaur </a>
+         <a id="4" href="info.html" >  charmander</a>
+         <a id="5" href="info.html" > charmeleon </a>
+         <a id="6" href="info.html" >charizard  </a>
+         <a id="7" href="info.html" >squirtle  </a>
+         <a id="8" href="info.html" > wartortle </a>
+         <a id="9" href="info.html" > blastoise </a>
+         <a id="10" href="info.html" > caterpie </a>
+         <a id="11" href="info.html" >metapod  </a>
+         <a id="12" href="info.html" >butterfree  </a>
+         <a id="13" href="info.html" >weedle  </a>
+         <a id="14" href="info.html" >  kakuna</a>
+         <a id="15" href="info.html" > beedrill </a>
+         <a id="16" href="info.html" > pidgey </a>
+         <a id="17" href="info.html" > pidgeotto </a>
+         <a id="18" href="info.html" > pidgeot </a>
+         <a id="19" href="info.html" >rattata  </a>
+         <a id="20" href="info.html" >raticate  </a>
+
+       </div>
+           
+   </main>
+
+</body>
+</html>
